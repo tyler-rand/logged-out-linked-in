@@ -1,0 +1,12 @@
+{
+  "name": "Logged Out Linked In",
+  "version": "1.0",
+  "description": "Navigate LinkedIn while logged out",
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/*"],
+      "js": ["/content_script.js"]
+    }
+  ],
+  "manifest_version": 2
+}
